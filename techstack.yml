@@ -1,0 +1,219 @@
+repo_name: SirHarveyBix/basic-mvc
+report_id: 95b7c9cc3042118dc8bc40529d9b1f7c
+repo_type: Public
+timestamp: '2023-11-10T15:04:25+00:00'
+requested_by: SirHarveyBix
+provider: github
+branch: master
+detected_tools_count: 17
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: 01. express/yarn.lock
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: ejs
+  description: Embedded JavaScript templates
+  package_url: https://www.npmjs.com/ejs
+  version: 3.1.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16045/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: express-handlebars
+  description: A Handlebars view engine for Express which doesn't suck
+  package_url: https://www.npmjs.com/express-handlebars
+  version: 7.0.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17718/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: pug
+  description: A clean
+  package_url: https://www.npmjs.com/pug
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16227/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: 01. express/yarn.lock
+  detection_source: 01. express/package.json
+  last_updated_by: SirHarveyBix
+  last_updated_on: 2023-05-26 11:33:10.000000000 Z
