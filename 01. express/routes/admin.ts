@@ -1,24 +1,12 @@
-import express from 'express';
+import express, { Request } from 'express';
+import { productsControler } from '../controllers/products';
 
 const router = express.Router();
 
-const products: { title: string }[] = [];
-
 // /admin/add-product => GET
-router.get('/add-product', (req, res, next) => {
-  res.render('add-product', {
-    pageTitle: 'Add Product',
-    path: '/admin/add-product',
-    formsCSS: true,
-    productCSS: true,
-    activeAddProduct: true,
-  });
-});
+router.get('/add-product', productsControler.getAddProduct);
 
 // /admin/add-product => POST
-router.post('/add-product', (request, response, _next) => {
-  products.push({ title: request.body.title });
-  response.redirect('/');
-});
+router.post('/add-product', productsControler.postAddProduct);
 
-export const adminData = { routes: router, products };
+export const adminData = { routes: router };
